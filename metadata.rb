@@ -10,8 +10,8 @@ recipe "rvm_passenger::apache2",  "Enables Apache module configuration for passe
 recipe "rvm_passenger::nginx",    "Installs Passenger gem w/ RVM, and recompiles support into Nginx"
 
 depends "rvm",      ">= 0.9.1"
-depends "nginx",    "~> 1.4.0"
-depends "apache2",  "~> 1.1.8"
+depends "nginx",    ">= 2.0.0"
+depends "apache2",  ">= 1.8.0"
 
 supports "ubuntu"
 supports "debian"
